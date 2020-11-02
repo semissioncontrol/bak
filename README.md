@@ -15,7 +15,7 @@ Grab the tarball in the releases. Untar and change to the diretory. Then, run
 ```
 cmake . 
 make
-make install
+cp ./bak /usr/bin/bak
 ```
 
 Run by running `bak`.
