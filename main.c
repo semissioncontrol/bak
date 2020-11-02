@@ -9,7 +9,6 @@ int main(int argc, char** argv) {
     char dest[40] = "/semc/coreutils/bak/";
     strcat(dest, argv[1]);
     strcat(dest, ".semc.bak");
-    printf(dest);
 
 
     in = fopen( argv[1], "rb" );
