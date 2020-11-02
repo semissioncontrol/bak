@@ -10,6 +10,15 @@ This specifically is Bak. Backup your files, quickly, easily, and locally.
 
 ## Installation
 
+Grab the tarball in the releases. Untar and change to the diretory. Then, run
+
+```
+cmake . 
+make
+make install
+```
+
+Run by running `bak`.
 
 ## Contribution
 
